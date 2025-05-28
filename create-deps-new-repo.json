@@ -1,0 +1,31 @@
+{
+  "version": 0,
+  "job": {
+    "correlator": "dependency-submission",
+    "id": "123"
+  },
+  "detector": {
+    "name": "Component Detection",
+    "version": "0.0.1",
+    "url": "https://github.com/advanced-security/component-detection-dependency-submission-action"
+  },
+  "manifests": {
+    "pom.xml": {
+      "name": "pom.xml",
+      "file": {
+        "source_location": "pom.xml"
+      },
+      "resolved": {
+        "pkg:maven/com.example/my-java-website@1.0-SNAPSHOT": {
+            "package_url": "pkg:maven/com.example/my-java-website@1.0-SNAPSHOT",
+            "relationship": "direct",
+            "scope": "runtime",
+            "dependencies": []
+        }
+      }
+    }
+  },
+  "scanned": "2025-05-28T15:42:58.336Z",
+  "ref": "refs/heads/main",
+  "sha": "7a624385f772eaea67c69773c535cd236d7f6397"
+}
